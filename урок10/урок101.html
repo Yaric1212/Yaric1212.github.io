@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{margin: 20px}
+        img{margin: 20px}
+    </style>
+    <script>
+        window.onload = init;
+        function init()
+        {
+            var image = document.getElementById("zero");
+            image.onclick=showAnswer;
+        }
+        function showAnswer()
+        {
+            var image = document.getElementById("zero");
+            image.src="./Картинки/zero.jpg";
+        }
+    </script>
+    <body>
+        <img id="zero" src="./Картинки/zeroblur.jpg">
+        <img id="one" src="./Картинки/oneblur.jpg">
+        <img id="two" src="./Картинки/twoblur.jpg">
+        <img id="three" src="./Картинки/threeblur.jpg">
+        <img id="four" src="./Картинки/fourblur.jpg">
+        <img id="five" src="./Картинки/fiveblur.jpg">
+    </body>
+</html>
